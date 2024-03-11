@@ -6,12 +6,12 @@ Console.WriteLine("Modification 3");
 
 static double Average(int[] arr)
 {
-    double average = 0;
+    double ave= 0;
     for (int i = 0; i < arr.Length; i++)
     {
-        average += arr[i];
+        ave += arr[i];
     }
-    return average/arr.Length;
+    return ave/arr.Length;
 }
 
 static int Max(int[] arr)
